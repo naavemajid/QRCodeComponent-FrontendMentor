@@ -1,0 +1,51 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    max-width:  340px;
+    margin: 60px auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 20px;
+   text-align: center;
+}
+
+    .container div img{
+        border-radius: 10px;
+        width: 100%;
+}
+
+h2{
+    padding: 10px;
+    margin-top: 5px;
+    color:hsl(218, 44%, 22%)
+}
+
+.container p{
+   color: hsl(220, 15%, 55%);
+   padding: 10px;
+
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width:375px){
+    .container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
